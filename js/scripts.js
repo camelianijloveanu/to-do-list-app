@@ -23,4 +23,6 @@ function newItem () {
 	crossOutButton.on('click', function(){
 		li.addClass('delete');
 	});
+
+	$('#list').sortable();
 }
